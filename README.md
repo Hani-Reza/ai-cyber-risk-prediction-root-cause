@@ -118,13 +118,8 @@
 
 ### Quick Installation (VS Code Terminal)
 
-<<<<<<< HEAD
  1. Clone repository
 git clone https://github.com/yourusername/ai-cyber-risk-prediction-root-cause.git
-=======
-# 1. Clone repository
-git clone https://github.com/Hani-Reza/ai-cyber-risk-prediction-root-cause.git
->>>>>>> b5a6cb1bb14717d4b3639a65f87feab82e8b6ed0
 cd ai-cyber-risk-prediction-root-cause
 
  2. Create and activate virtual environment
