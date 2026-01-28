@@ -118,44 +118,44 @@
 
 ### Quick Installation (VS Code Terminal)
 
-# 1. Clone repository
+ 1. Clone repository
 git clone https://github.com/yourusername/ai-cyber-risk-prediction-root-cause.git
 cd ai-cyber-risk-prediction-root-cause
 
-# 2. Create and activate virtual environment
+ 2. Create and activate virtual environment
 python -m venv venv
 venv\Scripts\activate.bat
 
-# 3. Install dependencies
+ 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Generate data and train model (one-time setup)
+ 4. Generate data and train model (one-time setup)
 python src\data_generator.py
 python src\preprocessing.py
 python src\model_training.py
 
-### 📖 Usage Examples
+## 📖 Usage Examples
 1. CLI Application (SOC Analyst Workflow)
 bash
-# Check system status
+-  Check system status
 python cli\app.py status
 
-# Analyze single event
+-  Analyze single event
 python cli\app.py analyze --failed-logins 15 --login-velocity 25.7 --ip-reputation 20
 
-# Batch process CSV file
+-  Batch process CSV file
 python cli\app.py process --input data\raw\security_events.csv --output reports\analysis.json
 
-# Simulate real-time monitoring
+-  Simulate real-time monitoring
 python cli\app.py monitor --count 10 --interval 2
 
-# Generate sample data
+-  Generate sample data
 python cli\app.py sample --count 100 --output data\sample_events.csv
 
 2. Streamlit Dashboard (Stakeholder Demo)
-bash
+
 streamlit run visualization\streamlit_app.py
-# Opens at http://localhost:8501
+-  Opens at http://localhost:8501
 
 
 ## Dashboard Pages:
@@ -236,9 +236,9 @@ device_ip_risk	        Combined device+IP risk	            Low trust + low reput
 ## 📊 Sample Outputs
 CLI Output Example
 
-============================================================
+===================================================
 EVENT ANALYSIS RESULTS
-============================================================
+===================================================
 Event ID: CLI_143025
 Risk Level: HIGH
 Probability: 0.723
