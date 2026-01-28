@@ -174,28 +174,29 @@ streamlit run visualization\streamlit_app.py
 ## 📁 Project Structure
 ai-cyber-risk-prediction-root-cause/
 
-├── data/                           # Data storage
-│   ├── raw/                       # Original generated data
-│   └── processed/                 # Processed features
-├── models/                        # Trained artifacts
-│   ├── risk_classifier.pkl       # ML model
-│   ├── preprocessor.pkl          # Feature transformer
-│   └── model_metadata.json       # Training metadata
-├── src/                          # Core business logic
-│   ├── data_generator.py         # Phase 2: SOC event simulation
-│   ├── preprocessing.py          # Phase 3: Feature engineering
-│   ├── model_training.py         # Phase 4: ML training
-│   ├── risk_scoring.py           # Phase 5: Risk categorization
-│   ├── root_cause_analysis.py    # Phase 6: Explainability
-│   └── utils.py                  # Shared utilities
-├── cli/                          # Command-line interface
-│   └── app.py                    # Phase 7: CLI orchestration
-├── visualization/                # UI layer
-│   └── streamlit_app.py          # Phase 8: Streamlit dashboard
-├── reports/                      # Generated outputs
-├── requirements.txt              # Python dependencies
-├── install_vscode.bat            # Windows installer
-└── README.md                     # This file
+ai-cyber-risk-prediction-root-cause/
+├── data/ # Data storage
+│ ├── raw/ # Original generated data
+│ └── processed/ # Processed features
+├── models/ # Trained artifacts
+│ ├── risk_classifier.pkl # ML model
+│ ├── preprocessor.pkl # Feature transformer
+│ └── model_metadata.json # Training metadata
+├── src/ # Core business logic
+│ ├── data_generator.py # Phase 2: SOC event simulation
+│ ├── preprocessing.py # Phase 3: Feature engineering
+│ ├── model_training.py # Phase 4: ML training
+│ ├── risk_scoring.py # Phase 5: Risk categorization
+│ ├── root_cause_analysis.py # Phase 6: Explainability
+│ └── utils.py # Shared utilities
+├── cli/ # Command-line interface
+│ └── app.py # Phase 7: CLI orchestration
+├── visualization/ # UI layer
+│ └── streamlit_app.py # Phase 8: Streamlit dashboard
+├── reports/ # Generated outputs
+├── requirements.txt # Python dependencies
+├── install_vscode.bat # Windows installer
+└── README.md # This file
 
 ## 🧠 ML Methodology
 Model Selection: Random Forest
