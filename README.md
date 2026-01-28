@@ -172,7 +172,6 @@ streamlit run visualization\streamlit_app.py
 
 
 ## 📁 Project Structure
-## 📁 Project Structure
 ```
 ai-cyber-risk-prediction-root-cause/
 ├── data/                           # Data storage
