@@ -172,8 +172,9 @@ streamlit run visualization\streamlit_app.py
 
 
 ## 📁 Project Structure
+## 📁 Project Structure
+```
 ai-cyber-risk-prediction-root-cause/
-
 ├── data/                           # Data storage
 │   ├── raw/                       # Original generated data
 │   └── processed/                 # Processed features
@@ -196,7 +197,7 @@ ai-cyber-risk-prediction-root-cause/
 ├── requirements.txt              # Python dependencies
 ├── install_vscode.bat            # Windows installer
 └── README.md                     # This file
-
+```
 ## 🧠 ML Methodology
 Model Selection: Random Forest
 Why Random Forest over alternatives?
