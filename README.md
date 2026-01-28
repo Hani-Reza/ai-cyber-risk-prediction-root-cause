@@ -173,6 +173,7 @@ streamlit run visualization\streamlit_app.py
 
 ## 📁 Project Structure
 ai-cyber-risk-prediction-root-cause/
+
 ├── data/                           # Data storage
 │   ├── raw/                       # Original generated data
 │   └── processed/                 # Processed features
@@ -234,11 +235,9 @@ device_ip_risk	      |  Combined device+IP risk	              |     Low trust + 
 
 
 ## 📊 Sample Outputs
-CLI Output Example
 
-==============================
 ### EVENT ANALYSIS RESULTS
-=====
+
 Event ID: CLI_143025
 Risk Level: HIGH
 Probability: 0.723
