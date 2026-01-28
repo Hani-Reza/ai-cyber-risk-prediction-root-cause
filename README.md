@@ -119,8 +119,8 @@
 ### Quick Installation (VS Code Terminal)
 
 # 1. Clone repository
-git clone https://github.com/yourusername/ai-cyber-risk-prediction-root-cause.git
-cd ai-cyber-risk-prediction-root-cause
+git clone https://github.com/Hani-Reza/ai-cyber-risk-engine.git
+cd ai-cyber-risk-engine
 
 # 2. Create and activate virtual environment
 python -m venv venv
@@ -172,7 +172,7 @@ streamlit run visualization\streamlit_app.py
 
 
 ## 📁 Project Structure
-ai-cyber-risk-prediction-root-cause/
+ai-cyber-risk-engine/
 ├── data/                           # Data storage
 │   ├── raw/                       # Original generated data
 │   └── processed/                 # Processed features
@@ -218,19 +218,19 @@ Why NOT Deep Learning?
 
 
 ### Performance Metrics (Expected)
-Metric	                Target	            Rationale
-Recall	                >0.85	    Must detect majority of attacks
-False Positive Rate	    <0.15	    Avoid SOC alert fatigue
-ROC-AUC	                >0.85	    Good discrimination capability
-CV Stability	        σ<0.05	    Consistent across data splits
+Metric	                |Target	|            Rationale
+Recall	                | >0.85	|   Must detect majority of attacks
+False Positive Rate	  | <0.15	|  Avoid SOC alert fatigue
+ROC-AUC	         | >0.85	|  Good discrimination capability
+CV Stability	         | σ<0.05	|   Consistent across data splits
 
 
-### Feature Engineering
-Engineered Feature	            Purpose	                        Cybersecurity Logic
-compound_risk_score	            Weighted combination	        Mimics SOC analyst mental model
-privilege_risk_multiplier	Amplifies risk for privileged accounts	UAE enterprise priority
-non_business_hours_risk	        Flags unusual timing	        Attacks often outside 9-5 UAE time
-device_ip_risk	        Combined device+IP risk	            Low trust + low reputation = high suspicion
+### Feature Engineering       
+Engineered Feature	      |      Purpose	                            |          Cybersecurity Logic
+compound_risk_score	      |      Weighted combination	              |        Mimics SOC analyst mental model
+privilege_risk_multiplier  |  Amplifies risk for privileged accounts	|       UAE enterprise priority
+non_business_hours_risk    |        Flags unusual timing	       |        Attacks often outside 9-5 UAE time
+device_ip_risk	      |  Combined device+IP risk	              |     Low trust + low reputation = high suspicion
 
 
 ## 📊 Sample Outputs
@@ -270,11 +270,11 @@ Regulatory Alignment
 - Full audit trail with timestamps and confidence scores
 
 ### SOC Operational Guidelines
-Parameter	                    Value	            UAE Context
-High-risk escalation time	    15 minutes	    UAE SOC SLA standard
-Daily alert capacity	        100 events	    Prevents analyst fatigue
-False positive tolerance	    20%	            Enterprise operational threshold
-Business hours	                9 AM - 5 PM	    UAE timezone aligned
+Parameter	               |     Value	      |      UAE Context
+High-risk escalation time	 |   15 minutes     |    UAE SOC SLA standard
+Daily alert capacity	        |   100 events     |    Prevents analyst fatigue
+False positive tolerance	 |    20%	      |     Enterprise operational threshold
+Business hours	        |   9 AM - 5 PM    |    UAE timezone aligned
 
 
 ### Data Sovereignty
