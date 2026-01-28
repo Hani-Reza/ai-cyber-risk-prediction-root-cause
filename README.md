@@ -236,9 +236,9 @@ device_ip_risk	      |  Combined device+IP risk	              |     Low trust + 
 ## 📊 Sample Outputs
 CLI Output Example
 
-===================================================
+===================================
 EVENT ANALYSIS RESULTS
-===================================================
+===================================
 Event ID: CLI_143025
 Risk Level: HIGH
 Probability: 0.723
