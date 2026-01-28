@@ -238,7 +238,7 @@ CLI Output Example
 
 ===================================
 EVENT ANALYSIS RESULTS
-===================================
+=====
 Event ID: CLI_143025
 Risk Level: HIGH
 Probability: 0.723
