@@ -119,8 +119,8 @@
 ### Quick Installation (VS Code Terminal)
 
 # 1. Clone repository
-git clone https://github.com/Hani-Reza/ai-cyber-risk-engine.git
-cd ai-cyber-risk-engine
+git clone https://github.com/Hani-Reza/ai-cyber-risk-prediction-root-cause.git
+cd ai-cyber-risk-prediction-root-cause
 
 # 2. Create and activate virtual environment
 python -m venv venv
@@ -172,7 +172,7 @@ streamlit run visualization\streamlit_app.py
 
 
 ## 📁 Project Structure
-ai-cyber-risk-engine/
+ai-cyber-risk-prediction-root-cause/
 ├── data/                           # Data storage
 │   ├── raw/                       # Original generated data
 │   └── processed/                 # Processed features
