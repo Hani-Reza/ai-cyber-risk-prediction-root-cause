@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data and Models (DO NOT COMMIT LARGE FILES)
+data/raw/security_events.csv
+data/processed/*.npy
+models/*.pkl
+models/*.joblib
+
+# Reports (generated files)
+reports/*.png
+reports/*.json
+reports/*.md
+reports/operations_log.jsonl
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+cybersecurity_risk.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Temporary files
+tmp/
+temp/
+
+# Installation scripts (can be regenerated)
+install_windows.bat
+install_windows_pro.ps1
+quick_install.bat
+install_simple.py
+
+# VS Code
+!.vscode/settings.json
+!.vscode/extensions.json
