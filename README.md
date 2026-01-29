@@ -90,11 +90,11 @@
 │                                                                         │
 │ 1. GENERATE → 2. PROCESS → 3. TRAIN → 4. SCORE → 5. EXPLAIN → 6. OUTPUT │
 │                                                                         │
-│    ┌─────┐      ┌─────┐     ┌─────┐    ┌─────┐     ┌─────┐    ┌─────┐  │
-│    │10K  │      │Clean│     │Model│    │Risk │     │Root │    │LOW/ │  │
-│    │SOC  │─────▶│Feat.│────▶│Fit  │───▶│Level│────▶│Cause│───▶│MED/ │  │
-│    │Events│     │Eng. │     │Eval.│    │Logic│     │Anal.│    │HIGH │  │
-│    └─────┘      └─────┘     └─────┘    └─────┘     └─────┘    └─────┘  │
+│    ┌─────┐      ┌─────┐     ┌─────┐    ┌─────┐     ┌─────┐    ┌─────┐   │
+│    │10K  │      │Clean│     │Model│    │Risk │     │Root │    │LOW/ │   │
+│    │SOC  │─────▶│Feat.│────▶│Fit  │───▶│Level│────▶│Cause│───▶│MED/  │
+│    │Events│     │Eng. │     │Eval.│    │Logic│     │Anal.│    │HIGH │   │
+│    └─────┘      └─────┘     └─────┘    └─────┘     └─────┘    └─────┘   │
 │                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 
@@ -219,7 +219,7 @@ Why NOT Deep Learning?
 
 
 ### Performance Metrics (Expected)
-Metric	                |Target	|            Rationale
+Metric	                |  Target	|            Rationale
 Recall	                | >0.85	|   Must detect majority of attacks
 False Positive Rate	  | <0.15	|  Avoid SOC alert fatigue
 ROC-AUC	         | >0.85	|  Good discrimination capability
