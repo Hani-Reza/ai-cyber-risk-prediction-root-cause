@@ -64,6 +64,7 @@
 - **JSON/CSV export** for integration with existing SOC tools
 
 ## 🏗️ System Architecture
+```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                    CYBERSECURITY RISK ANALYZER v1.0                     │
 │                        Production Architecture                          │
@@ -107,7 +108,7 @@
 │• Engineering validation                 │    │• No ML logic            │
 │• Production logs                        │    │• Thin wrapper           │
 └─────────────────────────────────────────┘    └─────────────────────────┘
-
+```
 
 ## 🚀 Installation & Setup
 
@@ -219,20 +220,22 @@ Why NOT Deep Learning?
 
 
 ### Performance Metrics (Expected)
+```
 Metric	                |  Target	|            Rationale
 Recall	                | >0.85	|   Must detect majority of attacks
 False Positive Rate	  | <0.15	|  Avoid SOC alert fatigue
 ROC-AUC	         | >0.85	|  Good discrimination capability
 CV Stability	         | σ<0.05	|   Consistent across data splits
+```
 
-
-### Feature Engineering       
+### Feature Engineering
+```
 Engineered Feature	      |      Purpose	                            |          Cybersecurity Logic
 compound_risk_score	      |      Weighted combination	              |        Mimics SOC analyst mental model
 privilege_risk_multiplier  |  Amplifies risk for privileged accounts	|       UAE enterprise priority
 non_business_hours_risk    |        Flags unusual timing	       |        Attacks often outside 9-5 UAE time
 device_ip_risk	      |  Combined device+IP risk	              |     Low trust + low reputation = high suspicion
-
+```
 
 ## 📊 Sample Outputs
 
